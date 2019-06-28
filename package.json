@@ -1,0 +1,28 @@
+{
+  "name": "golopot.github.io",
+  "version": "1.0.0",
+  "description": "Personal website",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "deploy": "rm -rf out && sh deploy.sh",
+    "build": "next build && next export",
+    "postbuild": "touch out/.nojekyll",
+    "start": "npm run build && http-server out",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/golopot/golopot.github.io.git"
+  },
+  "private": true,
+  "dependencies": {
+    "@zeit/next-css": "^1.0.1",
+    "next": "^8.1.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "devDependencies": {
+    "http-server": "^0.11.1"
+  }
+}
