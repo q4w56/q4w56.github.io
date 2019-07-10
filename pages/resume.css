@@ -44,7 +44,7 @@ h4 {
   margin-bottom: 32px;
   max-width: 880px;
   background: #fff;
-  padding: 0px 40px 0px;
+  padding: 0px 40px 12px;
   border: 1px solid #e6e6e5;
   box-shadow: 0px 3px 9px #d4dce4;
   border-radius: 6px;
@@ -67,17 +67,39 @@ h4 {
   width: 90px;
 }
 
-.experience > div > span:first-child {
+.experience__date {
   display: inline-block;
   width: 160px;
 }
 
+.experience__body {
+  margin: 4px 0;
+}
+
+.experience > div {
+  margin-bottom: 26px;
+}
+
 .works > section + section {
-  padding-top: 26px;
+  padding-top: 22px;
 }
 
 @media screen and (max-width: 480px) {
   .content {
     padding: 0 16px;
+  }
+}
+
+@media print {
+  html {
+    background: #fff;
+  }
+  .content {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-shadow: none;
+    background: red;
+    border-radius: 0;
   }
 }
