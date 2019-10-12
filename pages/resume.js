@@ -103,8 +103,12 @@ export default function Home() {
             title="HappyTV, Engineer"
             body={
               <>
-                Develop the Live streaming website in Vue, Node.js and MySQL. Responsible for chat
-                server and firebase cloud messaging services.
+                Develop{' '}
+                <a href="https://yoshow.live/" target="_blank" rel="noopener">
+                  yoshow.live
+                </a>
+                , a live streaming platform, in Vue, Node.js and MySQL. Responsible for chat server
+                and firebase cloud messaging services.
               </>
             }
           />
