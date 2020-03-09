@@ -84,7 +84,7 @@ export default function Home() {
           <ExperienceItem
             date="2015-11 - 2016-04"
             title="Transtep technology corporation, Programmer"
-            body={<>Develop Intelligent Vendor Machine in JavaScript. </>}
+            body={<>Develop Intelligent Vendor Machine in JavaScript.</>}
           />
 
           <ExperienceItem
@@ -92,23 +92,28 @@ export default function Home() {
             title="Bright Insight lab, Full stack programmer"
             body={
               <>
-                Develop SMIS system (Sportswear Market Intelligence System) in vue and express and
-                MongoDB.
+                Develop SMIS system (Sportswear Market Intelligence System) in Vue.js, Express.js
+                and MongoDB.
               </>
             }
           />
 
           <ExperienceItem
-            date="2018-09 - present"
+            date="2018-09 - 2019-10"
             title="HappyTV, Engineer"
             body={
               <>
-                Develop{' '}
+                • Develop{' '}
                 <a href="https://yoshow.live/" target="_blank" rel="noopener">
                   yoshow.live
                 </a>
-                , a live streaming platform, in Vue, Node.js and MySQL. Responsible for chat server
-                and firebase cloud messaging services.
+                , a live streaming website, both frontend and backend in Vue.js, Node.js and MySQL.
+                This includes design and implementation of UI, database, and http API.
+                <br />
+                • Develop chat server.
+                <br />
+                • Develop Cloud Messaging services.
+                <br />
               </>
             }
           />
