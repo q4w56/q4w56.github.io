@@ -25,11 +25,11 @@ export default function Home() {
   return (
     <main className="content">
       <Head>
-        <meta charset="UTF-8" />
+        <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="robots" content="noindex" />
         <meta name="Description" content="Resume of Chiawen Chen" />
-        <link rel="shortcut icon" href="/static/favicon.ico" type="image/x-icon" />
+        <link rel="shortcut icon" href="/static/icon.png" type="image/x-icon" />
         <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" />
         <title>Resume - Chiawen Chen 陳嘉文</title>
       </Head>
@@ -100,19 +100,24 @@ export default function Home() {
 
           <ExperienceItem
             date="2018-09 - 2019-10"
-            title="HappyTV, Engineer"
+            title="HappyTV, Software Engineer"
             body={
               <>
                 • Develop{' '}
                 <a href="https://yoshow.live/" target="_blank" rel="noopener">
                   yoshow.live
                 </a>
-                , a live streaming website, both frontend and backend in Vue.js, Node.js and MySQL.
-                This includes design and implementation of UI, database, and http API.
+                , a live streaming website, fullstack, using Vue.js, Express.js, Node.js and MySQL.
                 <br />
-                • Develop chat server.
+                • Develop the whole frontend project in Vue.js from scratch.
+                <br />
+                • Develop restful API using Node.js and MySQL.
+                <br />
+                • Develop chat server using WebSocket and Redis.
                 <br />
                 • Develop Cloud Messaging services.
+                <br />
+                • Setup cloud logging, error reporting, and metrics.
                 <br />
               </>
             }
@@ -125,26 +130,26 @@ export default function Home() {
 
         <section>
           <h4>
-            <span>TeX to Unicode - browser extension</span>{' '}
+            <span>TeX to Unicode - browser extension (2018)</span>{' '}
             <a href="https://chrome.google.com/webstore/detail/tex-to-unicode/kdojinhjlhbmmbfogccabogomjpjijif">
               [link]
             </a>{' '}
             <a href="https://github.com/golopot/tex-to-unicode">[source]</a>
           </h4>
-          <p>Turns math written in TeX into Unicode.</p>
+          <p>Converts TeX into Unicode in browser.</p>
         </section>
 
         <section>
           <h4>
-            <span>Micha cat tree 3D Web app</span>{' '}
+            <span>Micha cat tree 3D Web app (2016)</span>{' '}
             <a href="https://micha-cattree.github.io">[link]</a>
           </h4>
-          <p>Build a cat tree online.</p>
+          <p>Build a cat tree like LEGO online.</p>
         </section>
 
         <section>
           <h4>
-            <span>Eslint-plugin-jsdoc</span>{' '}
+            <span>Eslint-plugin-jsdoc (2019)</span>{' '}
             <a href="https://github.com/gajus/eslint-plugin-jsdoc">[link]</a>
           </h4>
           <p>I am one of the maintainers.</p>
@@ -152,7 +157,7 @@ export default function Home() {
 
         <section>
           <h4>
-            <span>Eslint-plugin-react</span>{' '}
+            <span>Eslint-plugin-react (2019)</span>{' '}
             <a href="https://github.com/yannickcr/eslint-plugin-react">[link]</a>
           </h4>
           <p>I am a frequent contributor.</p>
