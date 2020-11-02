@@ -40,13 +40,13 @@ export default function Home() {
         <h1>陳嘉文 Chiawen Chen</h1>
         <div>
           <p>
-            Web application developer, frontend, backend, and db. Specialties: node.js, javascript,
-            react, vue, express. Has been active on Github.
+            Software engineer, backend, frontend, and db. Specialties: go, node.js, javascript,
+            react, vue. Has been active on Github.
           </p>
           <p>
             <a href="https://github.com/golopot">github</a>
             <br />
-            <a href="https://stackoverflow.com/users/3290397/golopot">stackoveflow</a>
+            <a href="https://stackoverflow.com/users/3290397/golopot">stackoverflow</a>
           </p>
           <div>
             <div>golopot@gmail.com</div>
@@ -58,8 +58,14 @@ export default function Home() {
       <section>
         <h3>Skills</h3>
         <p>
-          node.js, javascript, typescript, react, vue, express, sql, mongodb, redis, go, docker,
-          git, linux, css, websocket, fcm.
+          • go, node.js, javascript, typescript, lua, python
+          <br />
+          • react, vue, css
+          <br />
+          • mysql, redis, elasticsearch, cassandra, mongodb, kafka, nsq
+          <br />
+          • git, docker, linux, websocket
+          <br />
         </p>
       </section>
 
@@ -67,13 +73,13 @@ export default function Home() {
         <h3>Education</h3>
 
         <div className="experience">
-          <ExperienceItem date="2007-09 - 2010-06" title="Taipei Municipal Jianguo High School" />
-
           <ExperienceItem
             date="2010-10 - 2014-07"
             title="Attended National Tsing Hua University, major in
             mathematics."
           />
+
+          <ExperienceItem date="2007-09 - 2010-06" title="Taipei Municipal Jianguo High School" />
         </div>
       </section>
 
@@ -81,18 +87,13 @@ export default function Home() {
         <h3>Experience</h3>
         <div className="experience">
           <ExperienceItem
-            date="2015-11 - 2016-04"
-            title="Transtep technology corporation, Programmer"
-            body={<>Develop Intelligent Vendor Machine in JavaScript.</>}
-          />
-
-          <ExperienceItem
-            date="2018-02 - 2018-05"
-            title="Bright Insight lab, Full stack programmer"
+            date="2020-04 - 2020-11"
+            title="Bcow Technology, Backend Engineer"
             body={
               <>
-                Develop SMIS system (Sportswear Market Intelligence System) in Vue.js, Express.js
-                and MongoDB.
+                Develop various websocket game servers, http api servers, workers, and utility
+                packages. Work with Go, Lua, Redis, MariaDB, Elasticsearch, Cassandra, Kafka, and
+                NSQ.
               </>
             }
           />
@@ -106,7 +107,7 @@ export default function Home() {
                 <a href="https://yoshow.live/" target="_blank" rel="noopener">
                   yoshow.live
                 </a>
-                , a live streaming website, fullstack, using Vue.js, Express.js, Node.js and MySQL.
+                , a live streaming website, fullstack, using Vue.js, Express.js, Node.js, and MySQL.
                 <br />
                 • Develop the whole frontend project in Vue.js from scratch.
                 <br />
@@ -120,6 +121,21 @@ export default function Home() {
                 <br />
               </>
             }
+          />
+          <ExperienceItem
+            date="2018-02 - 2018-05"
+            title="Bright Insight lab, Fullstack Engineer"
+            body={
+              <>
+                Develop SMIS system (Sportswear Market Intelligence System) in Vue.js, Express.js
+                and MongoDB.
+              </>
+            }
+          />
+          <ExperienceItem
+            date="2015-11 - 2016-04"
+            title="Transtep technology corporation, Programmer"
+            body={<>Develop Intelligent Vendor Machine in JavaScript.</>}
           />
         </div>
       </section>
