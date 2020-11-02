@@ -70,20 +70,6 @@ export default function Home() {
       </section>
 
       <section>
-        <h3>Education</h3>
-
-        <div className="experience">
-          <ExperienceItem
-            date="2010-10 - 2014-07"
-            title="Attended National Tsing Hua University, major in
-            mathematics."
-          />
-
-          <ExperienceItem date="2007-09 - 2010-06" title="Taipei Municipal Jianguo High School" />
-        </div>
-      </section>
-
-      <section>
         <h3>Experience</h3>
         <div className="experience">
           <ExperienceItem
@@ -137,6 +123,20 @@ export default function Home() {
             title="Transtep technology corporation, Programmer"
             body={<>Develop Intelligent Vendor Machine in JavaScript.</>}
           />
+        </div>
+      </section>
+
+      <section>
+        <h3>Education</h3>
+
+        <div className="experience">
+          <ExperienceItem
+            date="2010-10 - 2014-07"
+            title="Attended National Tsing Hua University, major in
+            mathematics."
+          />
+
+          <ExperienceItem date="2007-09 - 2010-06" title="Taipei Municipal Jianguo High School" />
         </div>
       </section>
 
